@@ -9,6 +9,7 @@ import gym from '../../assets/gym.png'
 import nft from '../../assets/nftcollection.png'
 // import { Link } from 'react-router-dom'
 import {motion} from 'framer-motion'
+import editor from "../../assets/Image editor.png"
 
 const proTop={
   offscreen:{y: -50,opacity: 0,display: 'none'},
@@ -38,8 +39,8 @@ const Project = () => {
           viewport={{once:true, amount:0.7}}
           transition={{staggerChildren:2}}
         >
-          <motion.a variants={proSub} href='https://nftcollections.vercel.app/' target='_blank' rel='noreferrer' className="main-pro">
-            <img src={nft} alt="nft collection dapp" />
+          <motion.a variants={proSub} href='https://simple-image-editor.vercel.app/' target='_blank' rel='noreferrer' className="main-pro">
+            <img src={editor} alt="nft collection dapp" />
           </motion.a>
           <motion.a variants={proSub} href='https://java-script-project-five.vercel.app/' target='_blank' rel='noreferrer' className="main-pro">
             <img src={tictac} alt="tic tac toe" />
